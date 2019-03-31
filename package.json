@@ -1,0 +1,11 @@
+{
+    "name": "Trains",
+    "description": "1830 multiplayer game",
+    "repository": "",
+    "license": "GPL v3",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "*",
+        "socket.io": "*"
+    }
+}
