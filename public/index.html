@@ -3,11 +3,21 @@
 <head>
     <title>Trains</title>
     <script src="/socket.io/socket.io.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/index.js" type="module"></script>
 </head>
 <body>
     <header>
         <h1>Hello World</h1>
     </header>
+    <main>
+        <section id="players">
+            <form id="login">
+                <fieldset><legend>Player Name</legend>
+                    <input name="name" />
+                    <button type="submit">Join</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
