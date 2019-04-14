@@ -3,9 +3,10 @@ const game = {
         players: []
     },
     io: {
-        connection: function (socket) {
-            console.log('New connection' + socket.handshake.address);
-            socket.emit('game_state_refresh', game.state);
+        login: function (server, username, client) {
+            game.state.players[username] = client;
+            server.emit('game_state_refresh', game.state);
+            console.log(game.state);
         }
     }
 }
