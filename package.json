@@ -2,10 +2,17 @@
     "name": "Trains",
     "description": "1830 multiplayer game",
     "repository": "",
-    "license": "GPL v3",
+    "license": "GPL-3.0-only",
     "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/inghamn/trains.git"
+    },
     "dependencies": {
         "express": "*",
-        "socket.io": "*"
+        "ws": "*"
+    },
+    "devDependencies": {
+        "mocha": "*"
     }
 }
